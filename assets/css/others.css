@@ -60,10 +60,12 @@ body {
 
 }
 
-#sing_up_form_input_field{
-    width: 270px;
+#sing_up_form_input_fiel{
+    width: 400px;
     height: 35px;
+    border: 2px solid lightblue;
 }
+
 
 
 #overlay div {
@@ -76,5 +78,6 @@ body {
 }
 
 #form_label{
-    font-size: larger;
+    font-size: x-large;
+    color: blue;
 }
