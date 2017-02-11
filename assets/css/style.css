@@ -39,6 +39,20 @@ body {
     font-weight: 300;
     line-height: 26px;
 }
+
+#tm{
+  color: black;
+  font-size: larger;  
+}
+
+#par{
+   font-size: larger; 
+}
+
+#why_choose_us{
+    font-size: x-large;
+}
+
 html,
 body { height: 100% }
 h1,
@@ -1145,171 +1159,9 @@ height: 340px;
 * 0.START TESTIMONIAL DESIGN
 * ----------------------------------------------------------------------------------------
 */
-.testimonial_overlay{
-	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
-	padding: 100px 0;
-}
-.avatar{
-	width: 80px;
-	margin: 0 auto;
-}
-.avatar img{
-	border: 4px solid #fff;
-	border-radius: 50%;
-	width: 120px;
-}
-.testimonials_area p{
-	color: #fff;
-	font-size: 15px;
-	margin: 20px 0 10px;
-}
-.testimonials_area span{
-	color: #fff;
-	font-size: 12px;
-	margin-bottom: 2px;
-	text-transform: uppercase;
-}
-.testimonials_area a:hover{
-	color: #fff;
-}
-.owl-controls{
-	position: absolute;
-	width: 100%;
-	top: 50%;
-	font-size: 16px;
-}
-.owl-prev{
-	position:absolute;
-	left: -50px;
-}
-.owl-next{
-	position:absolute;
-	right: -50px;
-}
-.owl-controls i{
-	font-size: 33px;
-	font-weight: 700;
-	transition: .5s;
-}
-.owl-controls i:hover{
-	color: #dd3333;
-}
-
-/*
-* ----------------------------------------------------------------------------------------
-* 0.END TESTIMONIAL DESIGN
-* ----------------------------------------------------------------------------------------
-*/
 
 
-/*
-* ----------------------------------------------------------------------------------------
-* .START COMPANY PARTNER LOGO
-* ----------------------------------------------------------------------------------------
-*/
-.partner-logo{background:#F8F8F8;}
-.partner { text-align: center }
-.partner img {}
-/*
-* ----------------------------------------------------------------------------------------
-* .END COMPANY PARTNER LOGO
-* ----------------------------------------------------------------------------------------
-*/
 
-/*
-* ----------------------------------------------------------------------------------------
-* 14.START BLOG PAGE DESIGN
-* ----------------------------------------------------------------------------------------
-*/
-/*START HOME BLOG*/
-@media only screen and (max-width:768px) { 
-    .home_single_blog { margin-bottom: 30px }
-}
-.home_single_blog img {
-	width: 100%;
-}
-.home_blog_text {
-	background: #fff none repeat scroll 0 0 !important;
-	border: 1px solid #eee;
-	padding: 30px;
-	position: relative;
-	z-index: 1;
-}
-.home_blog_text i {
-	margin-right: 5px;
- }
-.home_blog_text span {
-    color: #dd3333;
-    text-transform: uppercase;
-    margin-right: 15px;
-	font-size: 14px;
-}
-.home_blog_text h4 {
-	margin: 10px 0 15px;
-	text-transform: uppercase;
- }
-.home_blog_text p { margin-bottom: 20px }
-/*END HOME BLOG*/
-/*
-* ----------------------------------------------------------------------------------------
-* .END BLOG PAGE DESIGN
-* ----------------------------------------------------------------------------------------
-*/
-
-
-/*
-* ----------------------------------------------------------------------------------------
-* .START PROMOTION DESIGN
-* ----------------------------------------------------------------------------------------
-*/
-.buy_now {
-    background: #dd3333 none repeat scroll 0 0;
-    padding: 60px 0;
-}
-.buy_now_title {
-    color: #fff;
-    font-weight: 700;
-    margin: 0;
-    text-transform: uppercase;
-}
-@media only screen and (max-width:768px) { 
-    .buy_now_title { font-size: 22px }
-}
-@media only screen and (max-width:360px) { 
-    .buy_now_title { font-size: 15px }
-}
-.btn-promotion-bg {
-	background: #222 none repeat scroll 0 0;
-	border: 1px solid #222;
-	border-radius: 2px;
-	box-shadow: 0 11px 11px 0 rgba(0, 0, 0, 0.2);
-	color: #fff;
-	display: inline-block;
-	font-size: 16px;
-	font-weight: 700;
-	letter-spacing: 4px;
-	margin-top: 20px;
-	padding: 10px 30px;
-	text-transform: uppercase;
-	transition: all 0.2s ease 0s;
-}
-@media only screen and (max-width:480px) { 
-    .btn-promotion-bg {
-        margin-left: 0px;
-        margin-top: 20px;
-    }
-}
-.btn-promotion-bg:hover,
-.btn-promotion-bg:focus {
-    background: #fff;
-    border: 1px solid #fff;
-    color: #333;
-}
-/*
-* ----------------------------------------------------------------------------------------
-* .END PROMOTION DESIGN
-* ----------------------------------------------------------------------------------------
-*/
 
 /*
 * ----------------------------------------------------------------------------------------
